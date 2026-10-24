@@ -6,3 +6,7 @@ let montantVerse = 4000;
 
 // Conversion de la quantité en nombre
 let quantite = Number(quantiteTexte);
+
+// variables globales de travail
+let nomplat;
+let prixUnitaire;
