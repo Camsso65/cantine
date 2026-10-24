@@ -37,3 +37,12 @@ function calculerTotal(prix, qte) {
 
 // Appel de la fonction
 let totalAPayer = calculerTotal(prixUnitaire, quantite);
+
+// Affichage du recapitulatif
+
+console.log(`--- RÉCAPITULATIF COMMANDE DE ${nomClient} ---`);
+console.log(`Plat choisi : ${nomPlat}`);
+console.log(`Prix unitaire : ${prixUnitaire} FCFA`);
+console.log(`Quantité commandée : ${quantite}`);
+console.log("\n--- Préparation des portions ---");
+
