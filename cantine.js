@@ -29,3 +29,8 @@ switch (codePlat) {
     default:
         console.log("Code plat invalide !");
 }
+
+// fonction calcul
+function calculerTotal(prix, qte) {
+    return prix * qte;
+}
