@@ -10,3 +10,22 @@ let quantite = Number(quantiteTexte);
 // variables globales de travail
 let nomplat;
 let prixUnitaire;
+
+// determination du prix avec switch
+
+switch (codePlat) {
+    case 1:
+        nomPlat = "Attiéké-poisson";
+        prixUnitaire = 1500;
+        break;
+    case 2:
+        nomPlat = "Riz-poulet";
+        prixUnitaire = 2000;
+        break;
+    case 3:
+        nomPlat = "Alloco-œuf";
+        prixUnitaire = 1000;
+        break;
+    default:
+        console.log("Code plat invalide !");
+}
