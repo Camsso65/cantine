@@ -34,3 +34,6 @@ switch (codePlat) {
 function calculerTotal(prix, qte) {
     return prix * qte;
 }
+
+// Appel de la fonction
+let totalAPayer = calculerTotal(prixUnitaire, quantite);
