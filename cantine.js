@@ -2,7 +2,7 @@
  let nomClient = "Awa";
 let codePlat = 1;         
 let quantiteTexte = "3";  
-let montantVerse = 4000;
+let montantVerse = 5000;
 
 // Conversion de la quantité en nombre
 let quantite = Number(quantiteTexte);
@@ -63,3 +63,4 @@ if (montantVerse >= totalAPayer) {
     console.log(`non Paiement insuffisant. Il manque : ${manquant} FCFA`);
 }
 console.log("------------------------------------------\n");
+
